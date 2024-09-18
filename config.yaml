@@ -1,4 +1,4 @@
-baseURL: "https://nndemeo.netlify.app/"
+baseURL: "https://nndemeo.netlify.app"
 languageCode: "en-us"
 title: "N DeMeo"
 theme: "hugo-profile"
@@ -67,7 +67,7 @@ Menus:
       name: See all Posts
       url: /post
       parent: dropdown_portfolio
-      weight: 2
+      weight: 3
     - identifier: blog
       name: Blog - Coming Soon!
       title: Blog posts
