@@ -51,25 +51,25 @@ Menus:
       name: Portfolio
       weight: 1
     - identifier: dropdown_portfolio1
-      title: example dropdown 1
-      name: R Codebook Toolbox
-      url: /#
+      title: Codebook Toolbox
+      name: Codebook Toolbox
+      url: /post/2024-09-18-codebook-tools/
       parent: dropdown_portfolio
       weight: 1
     - identifier: dropdown_portfolio2
       title: example dropdown 2
-      name: example 2
-      url: /#
+      name: ILD-Item Metrics Shiny App
+      url: /post/2024-09-18-ild-item-metrics-shiny-app/
       parent: dropdown_portfolio
       weight: 2
     - identifier: dropdown_portfolio3
       title: example dropdown 3
-      name: See all posts
+      name: See all Posts
       url: /post
       parent: dropdown_portfolio
-      weight: 3
+      weight: 2
     - identifier: blog
-      name: Blog
+      name: Blog - Coming Soon!
       title: Blog posts
       url: /blogs
       weight: 2
@@ -86,7 +86,7 @@ Menus:
 
 params:
   title: "N DeMeo" 
-  description: Text about my cool site
+  description: "Natasha DeMeo's Portfolio and Blog: Data and Research"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -108,7 +108,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark" # light
 
   font:
     fontSize: 1rem # default: 1rem
@@ -118,23 +118,23 @@ params:
 
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
+  color:
+    textColor: "#343a40"
+    secondaryTextColor: "#6c757d"
+    textLinkColor: "#007bff"
+    backgroundColor: "#eaedf0"
+    secondaryBackgroundColor: "#64ffda1a"
+    primaryColor: "#a8818c" # "#007bff"
+    secondaryColor: "#f8f9fa"
 
-  #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
+    darkmode:
+      textColor: "#e4e6eb"
+      secondaryTextColor: "#b0b3b8" # "#b0b3b8" 
+      textLinkColor: "#ffffff"
+      backgroundColor: "#18191a"
+      secondaryBackgroundColor: "#212529" 
+      primaryColor: "#81a0a8" # "#ffffff"
+      secondaryColor: "#212529"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -154,7 +154,7 @@ params:
       disableEducation: true
       disableProjects: true
       disableAchievements: true
-      disableContact: true
+      disableContact: false
  
   # Hero
   hero:
@@ -177,11 +177,13 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/nndemeo
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/natasha-demeo/
+        - icon: fab fa-google
+          url: 'https://scholar.google.com/citations?user=3Z3W8QoAAAAJ&hl'
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:
@@ -393,11 +395,11 @@ params:
 
   #Contact
   contact:
-    enable: false
+    enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    content: Feel free to reach out via email!  
+    btnName: Email me
+    btnLink: mailto:nndemeo@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -407,17 +409,17 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "post"
       count: 3
       title: Recent Posts
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/nndemeo
+      linkedin: https://www.linkedin.com/in/natasha-demeo/
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
