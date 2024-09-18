@@ -24,33 +24,65 @@ markup:
 
 Menus:
   main:
+    - identifier: dropdown_about
+      title: About Me
+      name: About Me
+      weight: 1
+    - identifier: dropdown_about1
+      title: about me
+      name: Overview
+      url: /#about
+      parent: dropdown_about
+      weight: 1
+    - identifier: dropdown_about2
+      title: experience
+      name: Experience
+      url: /#experience
+      parent: dropdown_about
+      weight: 2
+    - identifier: dropdown_about3
+      title: education
+      name: Education
+      url: /#education
+      parent: dropdown_about
+      weight: 3
+    - identifier: dropdown_portfolio
+      title: Portfolio dropdown menu
+      name: Portfolio
+      weight: 1
+    - identifier: dropdown_portfolio1
+      title: example dropdown 1
+      name: R Codebook Toolbox
+      url: /#
+      parent: dropdown_portfolio
+      weight: 1
+    - identifier: dropdown_portfolio2
+      title: example dropdown 2
+      name: example 2
+      url: /#
+      parent: dropdown_portfolio
+      weight: 2
+    - identifier: dropdown_portfolio3
+      title: example dropdown 3
+      name: See all posts
+      url: /post
+      parent: dropdown_portfolio
+      weight: 3
     - identifier: blog
       name: Blog
       title: Blog posts
       url: /blogs
-      weight: 1
+      weight: 2
     - identifier: gallery
       name: Gallery
       title: Blog posts
       url: /gallery
+      weight: 3
+    - identifier: posts
+      name: Posts
+      title: Other posts
+      url: /post
       weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
 
 params:
   title: "Hugo Profile"
@@ -117,12 +149,12 @@ params:
       showOnScrollUp : true
     enableSeparator: false
     menus:
-      disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
-      disableAchievements: false
-      disableContact: false
+      disableAbout: true
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
 
   # Hero
   hero:
