@@ -400,4 +400,4 @@ libs/
 
 *.sav
 .Rproj.user
-.Rproj
+*.Rproj
