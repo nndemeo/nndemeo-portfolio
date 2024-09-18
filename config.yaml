@@ -65,13 +65,13 @@ Menus:
     - identifier: dropdown_portfolio3
       title: example dropdown 3
       name: See all Posts
-      url: /post
+      url: /post/
       parent: dropdown_portfolio
       weight: 3
     - identifier: blog
       name: Blog - Coming Soon!
       title: Blog posts
-      url: /blogs
+      url: /blogs/
       weight: 2
     # - identifier: gallery
     #   name: Gallery
