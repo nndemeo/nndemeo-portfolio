@@ -15,7 +15,7 @@ outputs:
 Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
+googleAnalytics: G-DG9T97NXQJ
 
 markup:
   goldmark:
@@ -167,10 +167,16 @@ params:
     bottomImage:
       enable: true
     roundImage: true # Make hero image circular | default false
+    button2:
+      enable: true
+      name: "Resume"
+      url: /Full CV_NND_2024-09-25.pdf
+      download: true
+      newPage: false
     button:
-      enable: false
-      name: "Download Resume"
-      url: "#"
+      enable: true
+      name: "Detailed Academic CV"
+      url: /Full CV_NND_2024-09-25.pdf
       download: true
       newPage: false
     socialLinks:
@@ -360,7 +366,7 @@ params:
           - "Javascript"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fnndemeo.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/gurusabarish/hugo-profile
           - icon: fab fa-twitter
